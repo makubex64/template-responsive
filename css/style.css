@@ -566,10 +566,13 @@ input[type=text]{
   width: 1200px;
   max-width: 100%;
   height: 380px;
+  overflow: hidden;
+
 }
 .map img{
   width: 1200px;
   max-width: 100%;
+  height: 380px;
   height: 100%;
 }
 
