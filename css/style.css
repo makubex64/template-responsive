@@ -485,17 +485,17 @@ form{
   margin-top: -30px;
   margin-left: -140px;
   float: left;
-  width: 200%;
+  width: 400px;
   }
 }
 
 @media screen and (max-width: 414px){
   form{
-    width: 320%;
+    width: 350px;
   }
 }
   
-@media screen and (max-width: 375px){
+@media screen and (max-width: 380px){
   .i{
     width: 200px;
     margin-top: -129px;
@@ -505,7 +505,7 @@ form{
    form{
     margin-top: -32px;
     margin-left: -145px;
-    width: 280px;
+    width: 320px;
     float: left;
   }
 
@@ -520,29 +520,18 @@ form{
 
 
 input[type=text]{
-  width: 100%;
+  width: 90%;
   padding: 12px;
   margin: 2px;
   box-sizing: border-box;
 
   
 }
-.name{
-  width: 49%;
-  float: left;
-}
-.email{
-  width: 49%;
-  float: right;
-
-}
-.message{
-  width: 100%;
-}
-.btn-form{
-  /*background: red;*/
-  width: 100%;
-  float: right;
+textarea{
+  width: 90%;
+  margin: 2px;
+  box-sizing: border-box;
+  padding: 12px;
 }
 #btn{
   width: 90px;
